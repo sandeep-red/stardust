@@ -1,0 +1,54 @@
+
+@media only screen and (max-width: 800px){
+    
+        div.details{
+            margin:-40px;
+            text-align: start;
+        }
+        p.detail{
+            font-size: 4vw;
+            margin: -8vw;
+            margin-bottom: 40px;
+             border: 0px;
+              }
+}
+
+.details{
+    text-align: center;
+    margin-top:150px;
+    padding: 50px 100px 0px 100px;
+    font-family: 'Sen', sans-serif;
+}
+
+.detail{
+    font-family: 'Sen', sans-serif;
+  width: 100%;
+  border:  3px solid rgb(26, 221, 189) ;
+  padding: 10px;
+  font-size: 1.5vw;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  margin-bottom: 100px;
+  animation: color-rotate 2s linear;
+  animation-iteration-count: infinite; 
+  animation-direction: alternate;
+    /* display: block;
+    line-height: 1.8;
+    box-sizing: border-box;
+    font-size: 1.4rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    }
+
+@keyframes color-rotate {
+        from {
+            border: hue-rotate(0deg);
+        }
+        to {
+            filter: hue-rotate(360deg);
+        }
+    }
+    
+    
