@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url('https://i.pinimg.com/originals/96/56/bc/9656bcb88d11dc10b999322ca494293b.gif');
   background-size: contain; 
-  background-position: center; /* Center the image */
+  background-position: auto; /* Center the image */
   background-repeat: repeat;
 }
 
